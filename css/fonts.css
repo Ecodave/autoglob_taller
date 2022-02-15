@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: FugazOne-Regular;
+    src: url(../fuentes/FugazOne-Regular.ttf)
+}
+@font-face {
+    font-family: Corben-Regular;
+    src: url(../fuentes/Corben-Regular.ttf)
+}

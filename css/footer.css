@@ -1,0 +1,96 @@
+@charset "utf-8";
+@import url(fonts.css);
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 96%;
+}
+@media screen and (max-width: 600px) {
+    body header #footer img {
+        margin-left: 1em;
+        margin-top: 1em;
+        width: 98%;
+    }
+    body .social #faceimg {
+        margin-left: 1em;
+        margin-top: 1em;
+        width: 100%;
+    }
+    body .social #whatsimg {
+        margin-left: 1em;
+        margin-top: 1em;
+        width: 98%;
+    }
+    /*-----------------administrador-----------------*/
+    body #Administrador {
+        width: 100%;
+        height: 8em;
+    }
+    body #Administrador #contable {
+        margin-left: 9em;
+        width: 8em;
+    }
+    /*----------------------map----------------------*/
+    body #map {
+        margin-left: 1em;
+        margin-top: 1em;
+        width: 98%;
+    }
+    body #map1 {
+        width: 98%;
+    }
+}
+@media screen and (min-width: 601px){
+    body header #footer img {
+        float: left;
+        margin-left: 1em;
+        width: 32%;
+    }
+    /*----------------------------------------------------*/
+    body .social {
+        float: left;
+        margin-left: 1em;
+        width: 32%;
+    }
+    /*----------------------facebook--------------------*/
+    body .social #facebook {
+        width: 100%;
+    }
+    body .social #facebook #faceimg {
+        width: 100%;
+    }
+    /*--------------------------whtasapp--------------*/
+    body .social #whatsapp {
+        width: 100%;
+        margin-top: 2%;
+    }
+    body .social #whatsapp #whatsimg {
+        width: 100%;
+    }
+    /*--------------------contable--------------------*/
+    Body #Administrador {
+        float: left;
+        margin-top: 2em;
+        margin-left: 9em;
+        width: 8em;
+        height: 8em;
+    }
+    body #Administrador #contable {
+        float: left;
+        width: 100%;
+    }
+
+    /*---------------------mapa ----------------------*/
+    body #map {
+        float: left;
+        margin-left: 1em;
+        width: 32%;
+        height: 17em;
+    }
+    body #map #map1 {
+        width: 100%;
+        height: 100%;
+    }
+}

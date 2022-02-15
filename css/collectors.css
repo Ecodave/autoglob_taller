@@ -1,0 +1,567 @@
+@charset "utf-8";
+@import url(fonts.css);
+* {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #D2B625;
+    font-family: corben-regular;
+}
+@media screen and (max-width: 600px) {
+    #logo {
+        margin-top: 0.5em;
+        margin-left: 0.8em;
+        width: 2em;
+        align-self: auto;
+    }
+    #title {
+        margin-top: 0.5em;
+        float: left;
+        width: 92%;
+        text-align: center;
+        font-family: FugazOne-regular;
+        font-size: 2.5em;
+        color: #00008b;
+    }/*-------------------------------------------------*/
+    #intitle {
+        margin-left: 1em;
+        font-size: 1.5em;
+        color: #00008b;
+    }
+    #income {
+        float: left;
+        font-family: Corben-regular;
+    }
+    input {
+        margin-top: 1em;
+        margin-left: 1em;
+        width: 94%;
+        height: 2.5em;
+        font-size: 1.2em;
+    }
+    #submit1 {
+        background-color: #00008b;
+        color: #D2B625;
+        border-radius: 14px;
+    }
+    #movement {
+        width: 90%;
+        margin-top: 1em;
+        margin-left: 1em;
+        float: left;
+        font-family: Corben-regular;
+        font-size: 1.5em;
+        color: #00008b;
+    }
+    #movement h2 {
+        margin-left: 0.5em;
+    }
+    table {
+        float: left;
+        margin-left: 1em;
+        margin-top: 1em;
+    }
+    th {
+        width: 8em;
+        background-color: lightgray;
+        font-family: Corben-regular;
+        font-size: 1.5em;
+        color: #00008b;
+    }
+    #noc {
+        width: 6em;
+    }
+    td {
+        width: 10em;
+        background-color: lightgray;
+    }
+    #arriendo1 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    #energia1 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    #agua1 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    #internet1 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    #telefono1 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    #materiales1 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    #repuestos1 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    #manodeobra1 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    #otros1 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    #total1 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    #submit2 {
+        float: left;
+        background-color: #00008b;
+        color: #D2B625;
+        border-radius: 14px;
+    }
+    #reset1 {
+        float: left;
+        background-color: #00008b;
+        color: #D2B625;
+        border-radius: 14px;
+    }
+    #submit3 {
+        float: left;
+        background-color: #00008b;
+        color: #D2B625;
+        border-radius: 14px;
+    }
+    #titleconsultas {
+        margin-top: 0.5em;
+        float: left;
+        width: 92%;
+        text-align: center;
+        font-family: FugazOne-regular;
+        font-size: 2.5em;
+        color: #00008b;
+    }
+    #periodo {
+        margin-left: 1em;
+        font-size: 1.5em;
+        color: #00008b;
+    }
+    label {
+        margin-left: 1em;
+        font-size: 1.5em;
+        color: #00008b;
+    }
+    #submit4 {
+        float: left;
+        background-color: #00008b;
+        color: #D2B625;
+        border-radius: 14px;
+    }
+    #gastos1 {
+        margin-left: 1em;
+        font-size: 1.5em;
+        color: #00008b;
+    }
+    #listagastosmain {
+        margin-left: 1em;
+    }
+    #listagastos {
+        font-size: 1.2em;
+        color: #00008b;
+        border-radius: 10px;
+    }
+    #submit5 {
+        float: left;
+        background-color: #00008b;
+        color: #D2B625;
+        border-radius: 14px;
+    }
+    #restagasing {
+        margin-top: 1em;
+        margin-left: 1em;
+        font-family: Corben-regular;
+        font-size: 1.5em;
+        color: #00008b;
+    }
+    #choicea {
+        margin-top: 2em;
+        border-top-style: solid;
+        border-top-width: 4px;
+        border-top-color: #00008b;
+    }
+    #choice1 {
+        margin-top: 1em;
+        margin-left: 1em;
+        font-size: 1.5em;
+        width: 92%;
+        height: 2em;
+    }
+    #choice2 {
+        margin-top: 1em;
+        margin-left: 1em;
+        font-size: 1.5em;
+        width: 92%;
+        height: 2em;
+    }
+    #choice3 {
+        margin-top: 1em;
+        margin-left: 1em;
+        font-size: 1.5em;
+        width: 92%;
+        height: 2em;
+    }
+    #choice4 {
+        margin-top: 1em;
+        margin-left: 1em;
+        font-size: 1.5em;
+        width: 92%;
+        height: 2em;
+    }
+    #choicee h2 {
+        margin-top: 0.5em;
+        margin-left: 1.5em;
+        font-size: 1.4em;
+        width: 92%;
+        height: 1.5em;
+        color: #00008b;
+    }
+    #submit6 {
+        float: left;
+        background-color: #00008b;
+        color: #D2B625;
+        border-radius: 14px;
+    }
+    #fin {
+        margin-top: 6em;
+        margin-left: 1.5em;
+        width: 92%;
+        height: 2em;
+    }
+}
+@media screen and (min-width: 601px) {
+    #logo {
+        padding: 0.2em;
+        margin-top: 0.2em;
+        margin-left: 11em;
+        width: 2.4em;
+        float: left;
+    }
+    #title {
+        margin-top: 1em;
+        float: left;
+        width: 100%;
+        font-family: FugazOne-regular;
+        font-size: 2.5em;
+        color: #00008b;
+    }/*-------------------------------------------------*/
+    #intitle {
+        margin-left: 2em;
+        font-family: corben-regular;
+        font-size: 1.5em;
+        color: #00008b;
+    }
+    #income {
+        display: inline-block;
+        font-family: Corben-regular;
+    }
+    input {
+        margin-top: 1em;
+        margin-left: 1em;
+        width: 10em;
+        height: 2.5em;
+        font-size: 1.2em;
+    }
+    #submit1 {
+        background-color: #00008b;
+        color: #D2B625;
+        border-radius: 14px;
+    }
+    #movement {
+        width: 96%;
+        margin-top: 1em;
+        margin-left: 1em;
+        float: left;
+        font-family: Corben-regular;
+        font-size: 1.5em;
+        color: #00008b;
+    }
+    #movement h2 {
+        margin-left: 0.5em;
+    }
+    table {
+        float: left;
+        margin-left: 16em;
+        margin-top: 1em;
+    }
+    th {
+        width: 8em;
+        height: 1.4em;
+        background-color: lightgray;
+        font-family: Corben-regular;
+        font-size: 1.4em;
+        color: #00008b;
+    }
+    #noc {
+        background-color: lightgray;
+        width: 26em;
+    }
+    td {
+        width: 10em;
+        background-color: lightgray;
+    }
+    #arriendo1 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    #energia1 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    #agua1 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    #internet1 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    #telefono1 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    #materiales1 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    #repuestos1 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    #manodeobra1 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    #otros1 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    #butons2 {
+        display: inline-block;
+    }
+    #reset1 {
+        width: 10em;
+        float: left;
+        background-color: #00008b;
+        color: #D2B625;
+        border-radius: 14px;
+        font-family: Corben-regular;
+        margin-left: 23em;
+    }
+    #submit3 {
+        width: 10em;
+        float: left;
+        background-color: #00008b;
+        color: #D2B625;
+        border-radius: 14px;
+        font-family: Corben-regular;
+    }
+    #titleconsultas {
+        margin-top: 1em;
+        float: left;
+        width: 92%;
+        text-align: center;
+        font-family: FugazOne-regular;
+        font-size: 2.5em;
+        color: #00008b;
+    }
+    #periodo {
+        margin-left: 1em;
+        font-size: 1.5em;
+        color: #00008b;
+    }
+    label {
+        margin-left: 1em;
+        font-size: 1.5em;
+        color: #00008b;
+    }
+    #totalperiodo {
+        margin-left: 1em;
+        font-size: 1.2em;
+    }
+    #totalperiodo2 {
+        margin-left: 1em;
+        font-size: 1.2em;
+    }
+    #totalingresos {
+        margin-left: 1em;
+        font-size: 1.2em;
+        padding: 0;
+    }
+    #submit4 {
+        background-color: #00008b;
+        color: #D2B625;
+        border-radius: 14px;
+    }
+    #gastos1 {
+        width: 98%;
+        margin-left: 1em;
+        font-size: 1.5em;
+        color: #00008b;
+    }
+    #evaluados {
+        display: inline-block;
+    }
+    #listagastosmain {
+        float: left;
+        margin-top: 1em;
+        margin-left: 1.5em;
+    }
+    #listagastos {
+        height: 2em;
+        font-size: 1.2em;
+        color: #00008b;
+        border-radius: 10px;
+    }
+    #fechaini {
+        margin-top: 0.5em;
+        float: left;
+        font-size: 1em;
+    }
+    #totalgastos {
+        float: left;
+        font-size: 1.2em;
+    }
+    #fechafin {
+        margin-top: 0.5em;
+        float: left;
+        font-size: 1em;
+    }
+    #totalgastos2 {
+        float: left;
+        font-size: 1.2em;
+    }
+    #totalgastos3 {
+        margin-top: 0.5em;
+        float: left;
+        font-size: 1.2em;
+    }
+    #submit5 {
+        margin-top: 0.5em;
+        background-color: #00008b;
+        color: #D2B625;
+        border-radius: 14px;
+    }
+    #restagasing {
+        margin-top: 0.5em;
+        margin-left: 1.5em;
+        float: left;
+        font-size: 1.5em;
+        color: #00008b;
+    }
+    #restagasingresos {
+        margin-top: 1em;
+        margin-left: 1.5em;
+        /*float: left;*/
+        font-size: 1.5em;
+        padding: 0;
+    }
+    #choicea {
+        margin-top: 1em;
+        margin-left: 1.5em;
+        width: 96%;
+        float: left;
+        border-top-width: 4px;
+        border-top-style: solid;
+        border-top-color: #00008b;
+    }
+    #choice1 {
+        font-size: 1.5em;
+        height: 2em;
+        border-radius: 10px;
+    }
+    #choiceb {
+        margin-top: 1em;
+        margin-left: 1.5em;
+        width: 96%;
+        float: left;
+    }
+    #choice2 {
+        font-size: 1.5em;
+        height: 2em;
+        border-radius: 10px;
+    }
+    #choicec {
+        margin-top: 1em;
+        margin-left: 1.5em;
+        width: 96%;
+        float: left;
+    }
+    #choice3 {
+        font-size: 1.5em;
+        height: 2em;
+        border-radius: 10px;
+    }
+    #choiced {
+        margin-top: 1em;
+        margin-left: 1.5em;
+        width: 96%;
+        float: left;
+    }
+    #choice4 {
+        font-size: 1.5em;
+        height: 2em;
+        border-radius: 10px;
+    }
+    #choicee {
+        margin-top: 22em; 
+    }
+    #choicee h2 {
+        float: left;
+        margin-top: 0.5em;
+        margin-left: 6em;
+        font-size: 1.5em;
+        width: 3.5em;
+        color: #00008b;
+    }
+    #totalgast {
+        margin-top: 0.6em;
+        float: left;
+       margin-left: 1em;
+    }
+    #submit6 {
+        margin-top: 0.5em;
+        background-color: #00008b;
+        color: #D2B625;
+        border-radius: 14px;
+    }
+    #fin {
+        margin-top: 10em;
+        margin-left: 1.5em;
+        width: 92%;
+        height: 2em;
+    }
+}
